@@ -1,0 +1,65 @@
+ 
+////When pattern size is 0, appending text in front of list /////////
+Please enter the sequence S:5,6,3,4,2,1,2,4,4,5,9,8,1,12,2,3,3,2,3,344,$
+
+Please enter the pattern to be replaced:$
+
+Please enter the replacement text:1,1,1,1,1,$
+1 1 1 1 1 5 6 3  -> 4 2 1 2 4 4 5 9  -> 8 1 12 2 3 3 2 3  -> 344
+
+Do you want to continue y/n:
+y
+
+Please enter the pattern to be replaced:2,3,$
+
+Please enter the replacement text:0,0,$
+1 1 1 1 1 5 6 3  -> 4 2 1 2 4 4 5 9  -> 8 1 12 0 0 3 0 0  -> 344
+
+ Do you want to continue y/n:n
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//////////For negative input //////
+
+Please enter the sequence S:4,5,6,7,8,1,2,-4,5,-6,-1,1,2,3,4,-1,1,-1,1,$
+
+Please enter the pattern to be replaced:-1,1,$
+
+Please enter the replacement text:0,$
+4 5 6 7 8 1 2 -4  -> 5 -6 0 2 3 4 0 0  ->
+
+Do you want to continue y/n:n
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+///when pattern size if greater than 8 /////// 
+
+Please enter the sequence S:-4,5,3,2,1,7,6,4,2,1,8,7,6,1,1,1,1,1,1,2,2,2,2,2,1,2,1,2,$
+
+Please enter the pattern to be replaced:1,1,1,1,1,1,2,2,2,2,2,$
+
+Please enter the replacement text:5,-3,-999,-2,1,2,$
+-4 5 3 2 1 7 6 4  -> 2 1 8 7 6 5 -3 -999  -> -2 1 2 1 2 1 2
+
+ Do you want to continue y/n:n
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+////When text size is greater than 8 ////////
+Please enter the sequence S:3,4,5,2,4,6,7,8,4,4,4,$
+
+Please enter the pattern to be replaced:4,$
+
+Please enter the replacement text:5,6,7,4,1,3,2,2,2,2,222,6,766,8,9,$
+3 5 6 7 4 1 3 2  -> 2 2 2 222 6 766 8 9  -> 5 2 5 6 7 4 1 3  -> 2 2 2 2 222 6 766 8  -> 9 6 7 8 5 6 7 4  -> 1 3 2 2 2 2 222 6  -> 766 8 9 5 6 7 4 1  -> 3 2 2 2 2 222 6 766  -> 8 9 5 6 7 4 1 3  -> 2 2 2 2 222 6 766 8  -> 9
+
+ Do you want to continue y/n:n
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+/// When Text size is 0 ////////
+
+Please enter the sequence S:2,2,4,43,4,6,7,8,1,1,1,23,3,$
+
+Please enter the pattern to be replaced:1,1,1,$
+
+Please enter the replacement text:$
+2 2 4 43 4 6 7 8  -> 23 3
+
+ Do you want to continue y/n:n
