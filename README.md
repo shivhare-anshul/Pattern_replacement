@@ -5,7 +5,7 @@ please check the complete problem statement in the pdf attached for both problem
 the complete code is written without using any external libraries. 
 
 
-kindly feel free to contact me if get any doubt regarding the code.
+kindly feel free to contact me, if you get any doubt regarding the code.
 
 IISc email id: anshulshivha@iisc.ac.in
 gmail id: shivhareanshul78@gmail.com
